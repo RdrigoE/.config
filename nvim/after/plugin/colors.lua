@@ -1,11 +1,10 @@
 -- setup must be called before loading
--- vim.cmd.colorscheme "catppuccin-mocha"
--- function ColorMyPencils(color)
---     color = color or "onedark"
---     vim.cmd.colorscheme(color)
--- end
---
--- ColorMyPencils()
+function ColorMyPencils(color)
+    color = color or "ayu-dark"
+    vim.cmd.colorscheme(color)
+end
+
+ColorMyPencils()
 -- Lua
 require('onedark').setup  {
     -- Main options --
@@ -53,4 +52,4 @@ require('lualine').setup {
   }
 }
 -- Lua
-require('onedark').load()
+-- require('onedark').load()

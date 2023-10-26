@@ -52,7 +52,6 @@ return require('packer').startup(function(use)
 	use 'lewis6991/gitsigns.nvim'
 
 	-- Cosmetics
-	use 'navarasu/onedark.nvim'               -- Theme inspired by Atom
 	use 'nvim-lualine/lualine.nvim'           -- Fancier statusline
 	use 'lukas-reineke/indent-blankline.nvim' -- Add indentation guides even on blank lines
 	use 'numToStr/Comment.nvim'               -- "gc" to comment visual regions/lines
@@ -67,8 +66,7 @@ return require('packer').startup(function(use)
 	use 'nvim-lua/plenary.nvim'
 
 	use {
-		'nvim-telescope/telescope.nvim', tag = '0.1.0',
-		-- or                            , branch = '0.1.x',
+		'nvim-telescope/telescope.nvim', 
 		requires = { { 'nvim-lua/plenary.nvim' } }
 	}
 
