@@ -65,7 +65,9 @@ bash nord.sh
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 # open tmux and prefix+I
 mkdir ~/.local/bin -p
-mv ~/.config/tmux-sessionalizer ~/.local/bin
+cp ~/.config/tmux-sessionalizer ~/.local/bin
+cp ~/.config/.zshrc ~
+cp ~/.config/.bashrc ~
 
 #change font in preferences
 #packer sync in nvim
